@@ -1,5 +1,5 @@
 body {
-    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #000000;
     background-color: #ffffff;
 }
@@ -282,7 +282,7 @@ ul {
 /* Accordion FAQ */
 
 .faq-section {
-    margin-top: 80px;
+    padding-top: 80px;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -340,9 +340,9 @@ ul {
       padding: 0px 12px 24px 12px;
   }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .faq-section {
-        margin-bottom: 48px;
+        padding-top: 48px;
     }
 }
 
